@@ -1,0 +1,29 @@
+baseurl = "https://dogukanonder.me/"
+title = "Dogukan Onder"
+theme = "hugo-theme-nix"
+languageCode = "en-us"
+disqusShortname = "dogukanonder"
+
+[menu]
+  [[menu.header]]
+    name = "post"
+    weight = 0
+    url = "post"
+  [[menu.header]]
+    name = "Nostr"
+    weight = 1
+    url = "https://primal.net/p/nprofile1qqstmcaxem6e780jcst5hq28vzmh5mvw2qxlpmxn740l0knd69ah0rs7lt6x7"
+[params]
+  GithubID = "dogukanonderr"
+  TwitterID = "dogukanondrr"
+  LinkedInID = "doğukan-önder-b79aa133a"
+
+  Name = "Dogukan Onder"
+  HeaderUsername = "dogukan"
+  HeaderHostname = "onder"
+  Email = "onderdogukan335@gmail.com"
+About = """
+Building scalable staffs. \n
+Passionate about open-source and decentralized protocols like Nostr."""
+ProfilePicture = "/profile.jpeg"
+Favicon = " "

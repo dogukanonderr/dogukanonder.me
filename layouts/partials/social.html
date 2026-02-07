@@ -1,0 +1,88 @@
+{{ with .Site.Params.GnuPGFingerprint }}
+<a href="https://keys.openpgp.org/search?q={{.}}" title="GPG" target="_blank" rel="noopener noreferrer"><i class="fas fa-unlock-alt fa-3x" aria-hidden="true"></i></a>
+{{ end }}
+{{ with .Site.Params.StackExchangeID }}
+<a href="https://stackexchange.com/users/{{.}}" rel="me noopener noreferrer" title="StackExchange" target="_blank"><i class="fab fa-stack-exchange fa-3x" aria-hidden="true"></i></a>
+{{ end }}
+{{ with .Site.Params.StackOverflowID }}
+<a href="https://stackoverflow.com/users/{{.}}" rel="me noopener noreferrer" title="StackExchange" target="_blank"><i class="fab fa-stack-overflow fa-3x" aria-hidden="true"></i></a>
+{{ end }}
+{{ with .Site.Params.SlackURL }}
+<a href="{{.}}" title="Slack" target="_blank" rel="noopener noreferrer"><i class="fab fa-slack fa-3x" aria-hidden="true"></i></a>
+{{ end }}
+{{ with .Site.Params.TwitterID }}
+<a href="https://twitter.com/{{.}}" rel="me noopener noreferrer" title="Twitter" target="_blank"><i class="fab fa-twitter fa-3x" aria-hidden="true"></i></a>
+{{ end }}
+{{ with .Site.Params.MastodonURL }}
+<a href="{{.}}" rel="me noopener noreferrer" title="Mastodon" target="_blank"><i class="fab fa-mastodon fa-3x" aria-hidden="true"></i></a>
+{{ end }}
+{{ with .Site.Params.BlueskyID }}
+<a href="https://bsky.app/profile/{{.}}" title="Bluesky" target="_blank" rel="noopener noreferrer"><i class="fab fa-bluesky fa-3x" aria-hidden="true"></i></a>
+{{ end }}
+{{ with .Site.Params.GoogleplusID }}
+<a href="https://plus.google.com/{{.}}/about" rel="me noopener noreferrer" title="Google+" target="_blank"><i class="fab fa-google-plus fa-3x" aria-hidden="true"></i></a>
+{{ end }}
+{{ with .Site.Params.FacebookID }}
+<a href="https://facebook.com/{{.}}" rel="me noopener noreferrer" title="Facebook" target="_blank"><i class="fab fa-facebook fa-3x" aria-hidden="true"></i></a>
+{{ end }}
+{{ with .Site.Params.BitbucketID }}
+<a href="https://bitbucket.org/{{.}}" rel="me noopener noreferrer" title="Bitbucket" target="_blank"><i class="fab fa-bitbucket fa-3x" aria-hidden="true"></i></a>
+{{ end }}
+{{ with .Site.Params.GithubID }}
+<a href="https://github.com/{{.}}" rel="me noopener noreferrer" title="GitHub" target="_blank"><i class="fab fa-github fa-3x" aria-hidden="true"></i></a>
+{{ end }}
+{{ with .Site.Params.GitlabId }}
+<a href="https://gitlab.com/{{.}}" rel="me noopener noreferrer" title="GitLab" target="_blank"><i class="fab fa-gitlab fa-3x" aria-hidden="true"></i></a>
+{{ end }}
+{{ with .Site.Params.CodepenID }}
+<a href="https://codepen.io/{{.}}" rel="me noopener noreferrer" title="Codepen" target="_blank"><i class="fab fa-codepen fa-3x" aria-hidden="true"></i></a>
+{{ end }}
+{{ with .Site.Params.LinkedInID }}
+<a href="https://linkedin.com/in/{{.}}" rel="me noopener noreferrer" title="LinkedIn" target="_blank"><i class="fab fa-linkedin fa-3x" aria-hidden="true"></i></a>
+{{ end }}
+{{ with .Site.Params.MediumID }}
+<a href="https://medium.com/@{{.}}" rel="me noopener noreferrer" title="Medium" target="_blank"><i class="fab fa-medium fa-3x" aria-hidden="true"></i></a>
+{{ end }}
+{{ with .Site.Params.YoutubeID }}
+<!-- For youtube, since there are multiple path urls please add everything after https://youtube.com/ in channel url -->
+<a href="https://youtube.com/{{.}}" rel="me noopener noreferrer" title="Youtube" target="_blank"><i class="fab fa-youtube fa-3x" aria-hidden="true"></i></a>
+{{ end }}
+{{ with .Site.Params.TwitchID }}
+<a href="https://twitch.tv/{{.}}" rel="me noopener noreferrer" title="Twitch" target="_blank"><i class="fab fa-twitch fa-3x" aria-hidden="true"></i></a>
+{{ end }}
+{{ with .Site.Params.SpotifyID }}
+<a href="https://open.spotify.com/user/{{.}}" rel="me noopener noreferrer" title="Spotify" target="_blank"><i class="fab fa-spotify fa-3x" aria-hidden="true"></i></a>
+{{ end }}
+{{ with .Site.Params.SoundcloudID }}
+<a href="https://soundcloud.com/{{.}}" rel="me noopener noreferrer" title="Soundcloud" target="_blank"><i class="fab fa-soundcloud fa-3x" aria-hidden="true"></i></a>
+{{ end }}
+{{ with .Site.Params.InstagramID }}
+<a href="https://instagram.com/{{.}}" rel="me noopener noreferrer" title="Instagram" target="_blank"><i class="fab fa-instagram fa-3x" aria-hidden="true"></i></a>
+{{ end }}
+{{ with .Site.Params.TelegramID }}
+<a href="https://t.me/{{.}}" rel="me noopener noreferrer" title="Telegram" target="_blank"><i class="fab fa-telegram fa-3x" aria-hidden="true"></i></a>
+{{ end }}
+{{ with .Site.Params.RedditID }}
+<a href="https://reddit.com/user/{{.}}" rel="me noopener noreferrer" title="Reddit" target="_blank"><i class="fab fa-reddit fa-3x" aria-hidden="true"></i></a>
+{{ end }}
+{{ with .Site.Params.Email }}
+<a href="mailto:{{.}}" title="Email"><i class="fas fa-envelope fa-3x" aria-hidden="true"></i></a>
+{{ end }}
+{{ with .Site.Params.Phone }}
+<a href="tel:{{.}}" title="Phone"><i class="fas fa-phone fa-3x" aria-hidden="true"></i></a>
+{{ end }}
+{{ with .Site.Params.Mobile }}
+<a href="tel:{{.}}" title="Mobile"><i class="fas fa-mobile fa-3x" aria-hidden="true"></i></a>
+{{ end }}
+{{ with .Site.Params.PayPalMeID }}
+<a href="https://www.paypal.me/{{.}}" rel="me noopener noreferrer" title="PayPal.Me" target="_blank"><i class="fab fa-paypal fa-3x" aria-hidden="true"></i></a>
+{{ end }}
+{{ with .Site.Params.XingURL }}
+<a href="{{.}}" rel="me noopener noreferrer" title="XING" target="_blank"><i class="fab fa-xing fa-3x" aria-hidden="true"></i></a>
+{{ end }}
+{{ with .Site.Params.CvURL }}
+<a href="{{.}}" title="Curriculum Vitae" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-alt fa-3x" aria-hidden="true"></i></a>
+{{ end }}
+{{ with .Site.Params.RSSURL }}
+<a href="{{.}}" title="RSS" target="_blank" rel="noopener noreferrer"><i class="fa fa-rss fa-3x" aria-hidden="true"></i></a>
+{{ end }}
